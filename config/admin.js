@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
         algorithm: 'RS512',
         privateKey: process.env.JWT_PRIVATE_KEY.replace(/\\n/g, '\n'),
         publicKey: process.env.JWT_PUBLIC_KEY.replace(/\\n/g, '\n'),
-        issuer: 'igbd-api',
+        issuer: 'idzemat-api',
         audience: 'admin'
       },
       accessTokenLifespan: 2 * 30 * 60, // 60 minutes
