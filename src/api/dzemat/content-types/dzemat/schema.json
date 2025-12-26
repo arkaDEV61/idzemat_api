@@ -35,8 +35,8 @@
     },
     "prayers": {
       "type": "component",
-      "repeatable": false,
-      "component": "prayers.citi-prayer"
+      "component": "prayers.citi-prayer",
+      "repeatable": false
     },
     "information": {
       "type": "relation",
@@ -68,6 +68,12 @@
     "app_fajr_settings": {
       "type": "boolean",
       "default": false
+    },
+    "teravih_mode": {
+      "type": "boolean"
+    },
+    "teravih_offset": {
+      "type": "integer"
     }
   }
 }
